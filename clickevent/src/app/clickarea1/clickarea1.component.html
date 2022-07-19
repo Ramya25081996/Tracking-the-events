@@ -1,0 +1,3 @@
+<div class="square" (dblclick)="clickFunction($event)" (click)="remove()" >
+<div><nav><a class="square1" [ngStyle]="{'left':x.a,'top':x.b}" (dblclick)="$event.stopPropagation()" tabindex="0" [routerLink]="['/clickcomp',x.a,x.b]" *ngFor="let x of element.clickEventArray;index as i" (keydown.delete)="removeElement(i)" [ngClass]="{'red': element.highlightvalue==x.b}" (click)="highlightelement(x.b,$event)">
+</a></nav></div></div>

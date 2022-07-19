@@ -1,0 +1,28 @@
+.click-area-box-align{
+    display:grid;
+    grid-template-rows: 610px 60px;
+}
+.area1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.area1-align1{
+    border:1px solid black;
+    margin:10px;
+    background-color: #f5f5f5;
+}
+.area1-align2{
+    border:1px solid black;
+    margin:10px;
+    background-color: #f5f5f5;
+}
+.button-style{
+    border: 1px solid black;
+    background-color: antiquewhite;
+    margin:10px;
+    text-align: center;
+    padding: 10px;
+}
+.header-align{
+    text-align: center;
+}

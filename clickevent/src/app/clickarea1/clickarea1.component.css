@@ -1,0 +1,18 @@
+.square{
+    /* border:1px solid black; */
+    width:100%;
+    height:100%
+}
+.square1{
+    width:10px;
+    height:10px;
+    border:1px solid black;
+   position:absolute;
+    background-color:aqua;
+}
+.red{
+    background-color: gainsboro;
+    transform: scale(1,1.2);
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+

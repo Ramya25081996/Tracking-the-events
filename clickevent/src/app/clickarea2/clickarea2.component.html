@@ -1,0 +1,5 @@
+<div class="comp comp2-division">
+    <div><div class="division" tabindex="0" *ngFor="let y of element.clickEventArray;index as i" [ngClass]="{'red': element.highlightvalue==y.b}" (click)="element.highlightvalue=y.b" (keydown.delete)="removeElement(i)">{{y|coords}}
+        <button (click)="removeElement(i)">Delete</button> 
+    </div>
+</div>

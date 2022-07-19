@@ -1,0 +1,8 @@
+<div  tabindex="0" class="dialog-box-close" (click)="closebutton()" *ngIf="this.element.show">
+    <div class="dialogbox-align" (click)="$event.stopPropagation()">
+    <span>X-coordinates</span><div class="dialogobox-x-input1" contenteditable="true" #input1></div>
+    <span>Y-coordinates</span><div class="dialogobox-x-input2" contenteditable="true" #input2></div>
+    <div class="bothbutton"><div class="dialogobox-xy-button" (click)="submitbutton()">submit</div>
+    <div class="dialogobox-xy-close" (click)="closebutton()">close</div></div>
+</div></div>
+
